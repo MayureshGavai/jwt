@@ -1,0 +1,20 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "username":"mayuresh2",
+    "password":"Mayuresh@20june"
+}
+
+###
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "username":"mayuresh2",
+    "password":"Mayuresh@20june"
+}
+
+###
+GET http://localhost:3000/decodeDetails
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YmQxNjk1MzdhNTRlNjE4YTJhMGQxYiIsInVzZXJuYW1lIjoibWF5dXJlc2gyIiwiaWF0IjoxNzA2ODkwOTA4fQ.134K9R-Sh0Ii7m9u5eQq5FM-YLz0BfrQw_9B4nThN3I
